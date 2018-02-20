@@ -1,0 +1,27 @@
+.container-fluid {
+    padding-left: 0;
+    padding-right: 0;
+}
+
+.standard {
+    background-color: #c0c0c0;
+    height: 100vh;
+}
+.row {
+    height: 50vh;
+    margin: 0 1em 1em 1em;
+}
+
+.dropdown-item {
+    cursor: pointer;
+}
+
+ol.carousel-indicators li,
+ol.carousel-indicators li.active {
+    height: 10px;
+    width: 30px;
+}
+
+.carousel-indicators li {
+    background-color: #FF5722;
+}

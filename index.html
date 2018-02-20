@@ -1,0 +1,199 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, shrink-to-fit=no">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+
+    <title>802.11 Wireless Standards</title>
+
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
+    <link rel="stylesheet" href="style.css">    
+</head>
+<body>
+    
+    <div class="container-fluid">
+        <div id="myCarousel" class="carousel slide" data-ride="false" data-interval="false">
+            <ol class="carousel-indicators d-flex align-items-end justify-content-center mb-5">
+                <li data-target="#myCarousel" data-slide-to="0" class="active"></li>
+                <li data-target="#myCarousel" data-slide-to="1"></li>
+                <li data-target="#myCarousel" data-slide-to="2"></li>
+                <li data-target="#myCarousel" data-slide-to="3"></li>
+                <li data-target="#myCarousel" data-slide-to="4"></li>
+            </ol>
+            <div class="carousel-inner">
+                <!-- 802.11a -->
+                <div class="carousel-item standard active">
+                    <div class="row d-flex align-items-center justify-content-center">
+                        <h1>802.11a</h1>
+                    </div>
+                    <div class="row d-flex pb-5 align-items-start justify-content-center">
+                        <div class="dropdown mr-2">
+                            <button id="Fbtn1" class="btn btn-outline-secondary dropdown-toggle btn-block" type="button"  data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                                Frequency
+                            </button>
+                            <div class="dropdown-menu" aria-labelledby="dropdownMenuButton">
+                                <button id="aFreqAnswer" class="dropdown-item" type="button">5Ghz</button>
+                                <button id="wf1" class="dropdown-item" type="button">2.4Ghz</button>
+                                <button id="wf2" class="dropdown-item" type="button">2.4 and 5Ghz</button>   
+                            </div>
+                        </div>
+                        <div class="dropdown">
+                            <button id="Bbtn1" class="btn btn-outline-secondary btn-block dropdown-toggle" type="button"  data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                                Bandwidth
+                            </button>
+                            <div class="dropdown-menu" aria-labelledby="dropdownMenuButton">
+                                <button id="wb1" class="dropdown-item" type="button">11Mbps</button>
+                                <button id="aBandAnswer" class="dropdown-item" type="button">54Mbps</button>
+                                <button id="wb2" class="dropdown-item" type="button">600Mbps</button>
+                                <button id="wb3" class="dropdown-item" type="button">Gigabit Speeds</button>   
+                            </div>
+                        </div>  
+                    </div>  
+                </div>
+                <!-- 802.11b -->
+                <div class="carousel-item standard">
+                    <div class="row d-flex align-items-center justify-content-center">
+                        <h1>802.11b</h1>
+                    </div>
+                    <div class="row d-flex pb-5 align-items-start justify-content-center">
+                        <div class="dropdown mr-2">
+                            <button id="Fbtn2" class="btn btn-outline-secondary dropdown-toggle btn-block" type="button"  data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                                Frequency
+                            </button>
+                            <div class="dropdown-menu" aria-labelledby="dropdownMenuButton">
+                                <button id="wf1.2"class="dropdown-item" type="button">5Ghz</button>
+                                <button id="bFreqAnswer" class="dropdown-item" type="button">2.4Ghz</button>
+                                <button id="wf2.2"class="dropdown-item" type="button">2.4 and 5Ghz</button>   
+                            </div>
+                        </div>
+                        <div class="dropdown">
+                            <button id="Bbtn2" class="btn btn-outline-secondary btn-block dropdown-toggle" type="button"  data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                                Bandwidth
+                            </button>
+                            <div class="dropdown-menu" aria-labelledby="dropdownMenuButton">
+                                <button id="bBandAnswer"class="dropdown-item" type="button">11Mbps</button>
+                                <button id="wb1.2" class="dropdown-item" type="button">54Mbps</button>
+                                <button id="wb2.2"class="dropdown-item" type="button">600Mbps</button>
+                                <button id="wb3.2"class="dropdown-item" type="button">Gigabit Speeds</button>   
+                            </div>
+                        </div>  
+                    </div>  
+                </div>
+                <!-- end -->
+                <!-- 802.11g -->
+                <div class="carousel-item standard">
+                        <div class="row d-flex align-items-center justify-content-center">
+                            <h1>802.11g</h1>
+                        </div>
+                        <div class="row d-flex pb-5 align-items-start justify-content-center">
+                            <div class="dropdown mr-2">
+                                <button id="Fbtn3" class="btn btn-outline-secondary dropdown-toggle btn-block" type="button"  data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                                    Frequency
+                                </button>
+                                <div class="dropdown-menu" aria-labelledby="dropdownMenuButton">
+                                    <button id="wf1.3"class="dropdown-item" type="button">5Ghz</button>
+                                    <button id="gFreqAnswer" class="dropdown-item" type="button">2.4Ghz</button>
+                                    <button id="wf2.3"class="dropdown-item" type="button">2.4 and 5Ghz</button>   
+                                </div>
+                            </div>
+                            <div class="dropdown">
+                                <button id="Bbtn3" class="btn btn-outline-secondary btn-block dropdown-toggle" type="button"  data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                                    Bandwidth
+                                </button>
+                                <div class="dropdown-menu" aria-labelledby="dropdownMenuButton">
+                                    <button id="wb1.3"class="dropdown-item" type="button">11Mbps</button>
+                                    <button id="gBandAnswer" class="dropdown-item" type="button">54Mbps</button>
+                                    <button id="wb2.3"class="dropdown-item" type="button">600Mbps</button>
+                                    <button id="wb3.3"class="dropdown-item" type="button">Gigabit Speeds</button>   
+                                </div>
+                            </div>  
+                        </div>  
+                    </div>
+                    <!-- end -->
+                    <!-- 802.11n -->
+                <div class="carousel-item standard">
+                        <div class="row d-flex align-items-center justify-content-center">
+                            <h1>802.11n</h1>
+                        </div>
+                        <div class="row d-flex pb-5 align-items-start justify-content-center">
+                            <div class="dropdown mr-2">
+                                <button id="Fbtn4" class="btn btn-outline-secondary dropdown-toggle btn-block" type="button"  data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                                    Frequency
+                                </button>
+                                <div class="dropdown-menu" aria-labelledby="dropdownMenuButton">
+                                    <button id="wf1.4"class="dropdown-item" type="button">5Ghz</button>
+                                    <button id="wf2.4" class="dropdown-item" type="button">2.4Ghz</button>
+                                    <button id="nFreqAnswer"class="dropdown-item" type="button">2.4 and 5Ghz</button>   
+                                </div>
+                            </div>
+                            <div class="dropdown">
+                                <button id="Bbtn4" class="btn btn-outline-secondary btn-block dropdown-toggle" type="button"  data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                                    Bandwidth
+                                </button>
+                                <div class="dropdown-menu" aria-labelledby="dropdownMenuButton">
+                                    <button id="wb1.4"class="dropdown-item" type="button">11Mbps</button>
+                                    <button id="wb2.4" class="dropdown-item" type="button">54Mbps</button>
+                                    <button id="nBandAnswer"class="dropdown-item" type="button">600Mbps</button>
+                                    <button id="wb3.4"class="dropdown-item" type="button">Gigabit Speeds</button>   
+                                </div>
+                            </div>  
+                        </div>  
+                    </div>
+                    <!-- end -->
+                    <!-- 802.11ac -->
+                <div class="carousel-item standard">
+                        <div class="row d-flex align-items-center justify-content-center">
+                            <h1>802.11ac</h1>
+                        </div>
+                        <div class="row d-flex pb-5 align-items-start justify-content-center">
+                            <div class="dropdown mr-2">
+                                <button id="Fbtn5" class="btn btn-outline-secondary dropdown-toggle btn-block" type="button"  data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                                    Frequency
+                                </button>
+                                <div class="dropdown-menu" aria-labelledby="dropdownMenuButton">
+                                    <button id="acFreqAnswer"class="dropdown-item" type="button">5Ghz</button>
+                                    <button id="wf1.5" class="dropdown-item" type="button">2.4Ghz</button>
+                                    <button id="wf2.5"class="dropdown-item" type="button">2.4 and 5Ghz</button>   
+                                </div>
+                            </div>
+                            <div class="dropdown">
+                                <button id="Bbtn5" class="btn btn-outline-secondary btn-block dropdown-toggle" type="button"  data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                                    Bandwidth
+                                </button>
+                                <div class="dropdown-menu" aria-labelledby="dropdownMenuButton">
+                                    <button id="wb1.5"class="dropdown-item" type="button">11Mbps</button>
+                                    <button id="wb3.5" class="dropdown-item" type="button">54Mbps</button>
+                                    <button id="wb2.5"class="dropdown-item" type="button">600Mbps</button>
+                                    <button id="acBandAnswer"class="dropdown-item" type="button">Gigabit Speeds</button>   
+                                </div>
+                            </div>  
+                        </div>  
+                    </div>
+                    <!-- end -->
+                </div>    
+            </div>
+            <!-- //carousel end -->
+            <div class="embed-responsive embed-responsive-16by9">
+                <iframe class="embed-responsive-item" src="https://www.youtube.com/embed/2ZomPMcgbSE?rel=0" allowfullscreen></iframe>
+            </div>
+            <div class="embed-responsive embed-responsive-16by9">
+                <iframe class="embed-responsive-item" src="https://www.youtube.com/embed/j_oOAHEy0Z8" allowfullscreen></iframe>
+            </div>
+            <div class="embed-responsive embed-responsive-16by9">
+                <iframe class="embed-responsive-item" src="https://www.youtube.com/embed/pACcViXC3ks" allowfullscreen></iframe>
+            </div>
+            <div class="embed-responsive embed-responsive-16by9">
+                <iframe class="embed-responsive-item" src="https://www.youtube.com/embed/qfS8-Qvvmfk" allowfullscreen></iframe>
+            </div>            
+        </div>
+    </div>
+
+
+    <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js" integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q" crossorigin="anonymous"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js" integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl" crossorigin="anonymous"></script>
+
+    <script src="mainScript.js"></script>
+</body>
+</html>
